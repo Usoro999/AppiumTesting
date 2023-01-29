@@ -1,27 +1,23 @@
 package Configurations;
 
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
-
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.*;
 
 
-public class BaseTest {
-    protected static AndroidDriver driver;
+public class IosBaseTest {
+    protected static IOSDriver driver;
     protected static AppiumDriverLocalService serviceBuilder;
 
 
 
-    @BeforeTest
-    public static void startDriver(){
-        driver = CreateDrivers.selectAndroidDriver(Drivers.CHROME);
+    @BeforeMethod
+    public void startDriver(){
+        driver = CreateIOSDrivers.selectIOSDriver(Drivers.IOSDRIVER);
     }
 
 
-    @AfterTest
+    @AfterMethod
     public void tearDown(){
         if(driver !=null) {
             driver.quit();

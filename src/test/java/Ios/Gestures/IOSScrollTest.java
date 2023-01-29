@@ -2,29 +2,41 @@ package Ios.Gestures;
 
 import Configurations.IosBaseTest;
 import io.appium.java_client.AppiumBy;
-import io.appium.java_client.TouchAction;
-import io.appium.java_client.ios.IOSTouchAction;
+import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
-public class IOSlongPress extends IosBaseTest {
+public class IOSScrollTest extends IosBaseTest {
 
     @Test
-    public void longPress(){
+    public void iosScroll() throws InterruptedException {
 
-        driver.findElement(AppiumBy.iOSNsPredicateString("label == \"Steppers\"")).click();
-        WebElement incrementButton = driver.findElement(AppiumBy.iOSClassChain("**/XCUIElementTypeButton[`label == \"Increment\"`][3]"));
-
-//        LongPress action
+        // Scroll to the element
+        WebElement webViewButton = driver.findElement(AppiumBy.accessibilityId("Web View"));
         Map<String, Object> params = new HashMap<>();
-        params.put("element", ((RemoteWebElement)incrementButton).getId());
-        params.put("duration", 5);
-        driver.executeScript("mobile:touchAndHold", params);
+        params.put("element", webViewButton);  //((RemoteWebElement)webViewButton).getId()
+        params.put("direction", "down");
+
+        driver.executeScript("mobile:scroll", params);
+        webViewButton.click();
+        Thread.sleep(2000);
+
+        driver.findElement(AppiumBy.iOSClassChain("**/XCUIElementTypeButton[`label == \"UIKitCatalog\"`]")).click();
+
+        //Picker menu -> use sendKeys()
+        driver.findElement(AppiumBy.accessibilityId("Picker View")).click();
+        driver.findElement(AppiumBy.accessibilityId("Red color component value")).sendKeys("100");
+        driver.findElement(AppiumBy.accessibilityId("Green color component value")).sendKeys("220");
+
+        // Slide from 0 to 100%
+        /**WebElement slider = driver.findElement(AppiumBy.accessibilityId("Slider"));
+        slider.sendKeys("0"); // -> move to 0%
+        slider.sendKeys("1%"); // -> move t0 100%*/
+
 
     }
 }

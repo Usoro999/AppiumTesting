@@ -2,18 +2,21 @@ package Android.GeneralStore;
 
 import Android.AndroidActions.AndroidActions;
 import Configurations.BaseTest;
-import PageObjectsAndroid.FormPage;
-import PageObjectsAndroid.ProductCatalog;
-import org.openqa.selenium.By;
+import Android.PageObjectsAndroid.CartPage;
+import Android.PageObjectsAndroid.FormPage;
+import Android.PageObjectsAndroid.GeneralCommands;
+import Android.PageObjectsAndroid.ProductCatalog;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class checkTheSum extends BaseTest {
+public class CheckTheSumOnCart extends BaseTest {
     AndroidActions androidActions = new AndroidActions(driver);
     GeneralCommands generalCommands = new GeneralCommands();
     FormPage formPage = new FormPage(driver);
     ProductCatalog productCatalog = new ProductCatalog(driver);
+    CartPage cartPage = new CartPage(driver);
+
     @Test
     public void checkTheSum() throws InterruptedException {
 
@@ -21,17 +24,14 @@ public class checkTheSum extends BaseTest {
 
         productCatalog.selectTwoItems();
         productCatalog.navigateToCart();
+        // Compare sum prices and totalAmount
+        Assert.assertEquals(cartPage.getSumOfOrderItems(), cartPage.getTotalScreenAmount(), "The sums should be the same");
 
-        Assert.assertEquals(productCatalog.getSumOfOrderItems(), productCatalog.getTotalScreenAmount(), "The sums should be the same");
+        cartPage.longPressOnTerms();
 
-        productCatalog.
-        androidActions.longPressAction(driver.findElement(By.id("com.androidsample.generalstore:id/termsButton")));
+        Assert.assertEquals(cartPage.getTermsText(), "Terms Of Conditions");
 
-        Assert.assertEquals(driver.findElement(By.id("com.androidsample.generalstore:id/alertTitle")).getText(),
-                                                    "Terms Of Conditions");
-        driver.findElement(By.id("android:id/button1")).click();
-        driver.findElement(By.xpath("//android.widget.CheckBox")).click();
-        driver.findElement(By.id("com.androidsample.generalstore:id/btnProceed")).click();
+        cartPage.finishOrder();
         Thread.sleep(16000);
 
     }

@@ -1,4 +1,4 @@
-package PageObjectsAndroid;
+package Android.PageObjectsAndroid;
 
 import Android.AndroidActions.AndroidActions;
 import io.appium.java_client.android.AndroidDriver;
@@ -68,46 +68,6 @@ public class ProductCatalog extends AndroidActions {
         //Switching the pages are contained several seconds = necessarily to use Wait
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.attributeContains(cartTitle, "text", "Cart"));
-    }
-
-    public Double getSumOfOrderItems() {
-        
-        double sum = 0.0;
-        for (int i = 0; i < itemPrices.size(); i++){
-            double price = Double.parseDouble(itemPrices.get(i).getText().replace("$",""));
-            sum = price + sum;
-        }
-        return sum;
-    }
-
-    public Double getTotalScreenAmount() {
-        return Double.parseDouble(totalAmount.getText().replace("$ ",""));
-    }
-
-    public void longPressOnTerms() {
-        longPressAction(terms);
-    }
-
-    public String getTermsText() {
-        return termsText.getText();
-    }
-
-    public void finishOrder() {
-        button1.click();
-        checkbox.click();
-        proceedBtn.click();
-    }
-
-    public void selectOneItem() {
-        // Select the right element from list and click AddToCart
-        int productAmount = driver.findElements(By.id("com.androidsample.generalstore:id/productName")).size();
-        for (int i = 0; i < productAmount; i++){
-            String productName = driver.findElements(By.id("com.androidsample.generalstore:id/productName")).get(i).getText();
-            if(productName.equals("Jordan 6 Rings")){
-                driver.findElements(By.id("com.androidsample.generalstore:id/productAddCart")).get(i).click();
-            }
-
-        }
     }
 
     public void addToCartOneItem(String item) {

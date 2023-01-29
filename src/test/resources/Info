@@ -1,0 +1,5 @@
+
+
+
+how to install any app to emulator:
+adb install /Users/yurii/MyFiles/JavaProjects/ATest/src/test/resources/General-Store.apk

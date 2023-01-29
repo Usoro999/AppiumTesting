@@ -1,4 +1,4 @@
-package Ios.Gestures;
+package Ios;
 
 import Configurations.IosBaseTest;
 import io.appium.java_client.AppiumBy;
@@ -9,10 +9,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class IOSSwipe extends IosBaseTest {
+public class IOSBrowserSafari extends IosBaseTest {
 
     @Test
-    public void swipeTest(){
+    public void safariTest(){
 
         //How to open a native app on the ios
         // Android 'appPackage' == Ios 'Bundle ID'.
@@ -20,19 +20,12 @@ public class IOSSwipe extends IosBaseTest {
 
 //        Open another app
         Map<String, String> params = new HashMap<>();
-        params.put("bundleId", "com.apple.mobileslideshow");  // ((RemoteWebElement)incrementButton).getId()
+        params.put("bundleId", "com.apple.mobilesafari");  // ((RemoteWebElement)incrementButton).getId()
 
         driver.executeScript("mobile:launchApp", params);
-        driver.findElement(AppiumBy.iOSClassChain("**/XCUIElementTypeButton[`label == \"All Photos\"`]")).click();
-        List<WebElement> photos = driver.findElements(AppiumBy.iOSNsPredicateString("XCUIElementTypeImage"));
-
-        photos.get(0).click();
+        driver.get("https://support.apple.com/ru-ru/guide/deployment/depece748c41/web");
 
 
-        Map<String,String> swipe = new HashMap<>();
-        swipe.put("direction", "left");
-        //swipe.put("elementId", WebElement);  -->>> if we need to swipe from some element
-        driver.executeScript("mobile:swipe", swipe);
 
 
     }

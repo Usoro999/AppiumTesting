@@ -1,4 +1,4 @@
-package AndroidMobileBrowser;
+package Android.AndroidMobileBrowser;
 
 import Configurations.BaseTest;
 import org.openqa.selenium.By;

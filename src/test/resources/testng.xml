@@ -1,11 +1,14 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Soroka Yurii">
-    <test name="ScreenShotTest">
-        <groups>
-            <define name="smoke"/>
-        </groups>
+<suite name="AppiumTesting">
+    <test name="IOStesting">
+<!--        <groups>-->
+<!--            <define name="smoke"/>-->
+<!--        </groups>-->
         <classes>
-            <class name="Ios.IosTest"/>
+            <class name="Ios.IosBasicTest"/>
+            <class name="Ios.Gestures.IOSScrollTest"/>
+            <class name="Ios.Gestures.IOSSwipe"/>
+            <class name="Ios.Gestures.IOSlongPress"/>
         </classes>
     </test>
 </suite>

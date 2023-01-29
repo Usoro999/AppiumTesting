@@ -4,17 +4,151 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efccdcee-85e6-4484-b79a-31c4fe9aec43" name="Changes" comment="" />
+    <list default="true" id="efccdcee-85e6-4484-b79a-31c4fe9aec43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Android/AndroidActions/AndroidActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Android/AndroidMobileBrowser/BrowserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/CheckErrorToast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/CheckTheSumOnCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/FillForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/OrderOneItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/SwitchTheApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Android/PageObjectsAndroid/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Android/PageObjectsAndroid/FormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Android/PageObjectsAndroid/GeneralCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Android/PageObjectsAndroid/ProductCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Configurations/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Configurations/CreateDrivers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Configurations/CreateIOSDrivers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Configurations/Drivers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Configurations/IosBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ios/Gestures/IOSScrollTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ios/Gestures/IOSSwipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ios/Gestures/IOSlongPress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ios/IOSBrowserSafari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ios/IosBasicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ApiDemos-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/General-Store.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Assets.car" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ActivityIndicatorViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ActivityIndicatorViewController.storyboardc/UITableViewController-YvC-vN-mSd.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ActivityIndicatorViewController.storyboardc/YvC-vN-mSd-view-Udh-X7-hOc.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/AlertControllerViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/AlertControllerViewController.storyboardc/UITableViewController-Va4-Ge-jQn.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/AlertControllerViewController.storyboardc/Va4-Ge-jQn-view-iro-ev-0xV.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ButtonViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ButtonViewController.storyboardc/UITableViewController-gl0-hM-EWg.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ButtonViewController.storyboardc/gl0-hM-EWg-view-gDs-OX-aHt.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Credits.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/7Xn-ho-KP8-view-LFl-gd-u3P.nib/objects-14.0+.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/7Xn-ho-KP8-view-LFl-gd-u3P.nib/runtime.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/UIViewController-7Xn-ho-KP8.nib/objects-14.0+.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/UIViewController-7Xn-ho-KP8.nib/runtime.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ImageViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ImageViewController.storyboardc/UIViewController-XCI-A9-c2M.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ImageViewController.storyboardc/XCI-A9-c2M-view-InE-1J-uPb.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/InfoPlist.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/LaunchScreen.storyboardc/Axx-hg-9Xm-view-Bd8-dr-7ve.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/LaunchScreen.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/LaunchScreen.storyboardc/UINavigationController-4yX-ry-qSy.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/GgB-cT-22O-view-aE8-Eb-ul8.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/MasterViewController.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/initialDetail.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/ioe-is-9Fo-view-Ie1-Wu-iah.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/navInitialDetail.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/splitView.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/PageControlViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/PageControlViewController.storyboardc/UIViewController-ZSF-lM-gQa.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/PageControlViewController.storyboardc/ZSF-lM-gQa-view-1Df-6J-Q8v.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/PickerViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/PickerViewController.storyboardc/UIViewController-hIc-I2-PiV.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/PickerViewController.storyboardc/hIc-I2-PiV-view-EB5-Ny-mbq.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ProgressViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ProgressViewController.storyboardc/UITableViewController-aY0-FD-8DD.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ProgressViewController.storyboardc/aY0-FD-8DD-view-vxe-YC-yBi.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/CustomSearchBarViewController.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/DefaultSearchBarViewController.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/Mhd-Bs-sIn-view-YVy-et-UAQ.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/Search.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/SearchBarEmbedInNavBarViewController.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/SearchResultsViewController.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/Thx-B6-QkK-view-QvM-3S-GbD.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/aRM-gX-SK9-view-1PE-AW-QJq.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/aTT-8g-UdL-view-VZF-3b-rcm.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/v21-vF-FLh-view-d2N-kr-XWw.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SegmentedControlViewController.storyboardc/Eil-ie-nN6-view-fLQ-5f-tUh.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SegmentedControlViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SegmentedControlViewController.storyboardc/UITableViewController-Eil-ie-nN6.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SliderViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SliderViewController.storyboardc/UITableViewController-laz-6N-ZhE.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SliderViewController.storyboardc/laz-6N-ZhE-view-8xG-xW-Mvc.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/StackViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/StackViewController.storyboardc/K8w-Uq-R9J-view-Hwb-09-b4P.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/StackViewController.storyboardc/UIViewController-K8w-Uq-R9J.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/StepperViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/StepperViewController.storyboardc/Ob2-pp-aCj-view-aQ3-9F-Tmi.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/StepperViewController.storyboardc/UITableViewController-Ob2-pp-aCj.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SwitchViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SwitchViewController.storyboardc/UITableViewController-zcI-oN-J3j.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SwitchViewController.storyboardc/zcI-oN-J3j-view-4ER-nG-feZ.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/TextFieldViewController.storyboardc/DSJ-7r-oCY-view-dyj-uS-k8j.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/TextFieldViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/TextFieldViewController.storyboardc/UITableViewController-DSJ-7r-oCY.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/TextViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/TextViewController.storyboardc/UIViewController-pUP-b0-VMf.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/TextViewController.storyboardc/pUP-b0-VMf-view-eAJ-am-dgQ.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/CustomToolbarViewController.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/DefaultToolbarViewController.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/FY6-YQ-KUW-view-cQQ-vC-cql.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/P5B-ej-GR8-view-lTJ-Dz-yrG.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/TintedToolbarViewController.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/Toolbars.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/c6p-Xx-oIp-view-LTn-gr-hZ8.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/cTo-Y6-RL4-view-YY9-uv-rey.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/WebViewController.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/WebViewController.storyboardc/UIViewController-i9U-A8-mkf.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/WebViewController.storyboardc/i9U-A8-mkf-view-cde-Ag-lVB.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/PkgInfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/UIKitCatalog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2JjkihSV9PKGEdOwczuiOfD7NSL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,9 +156,146 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/yurii/MyFiles/JavaProjects/ATest/src/test/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="E:\JavaProjects\ATest\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="PageObjectsAndroid" />
+      <recent name="Ios" />
+      <recent name="Ios.Gestures" />
+      <recent name="Configurations" />
+      <recent name="GeneralStore" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.IOSBrowserSafari.safariTest">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AppiumTestinf" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="AppiumTestinf" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrowserTest.browserTesting" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTestinf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Android.AndroidMobileBrowser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MobileBrowser" />
+      <option name="MAIN_CLASS_NAME" value="Android.AndroidMobileBrowser.BrowserTest" />
+      <option name="METHOD_NAME" value="browserTesting" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOSBrowserSafari.safariTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTestinf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ios" />
+      <option name="MAIN_CLASS_NAME" value="Ios.IOSBrowserSafari" />
+      <option name="METHOD_NAME" value="safariTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOSScrollTest.iosScroll" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTestinf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ios.Gestures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ios.Gestures" />
+      <option name="MAIN_CLASS_NAME" value="Ios.Gestures.IOSScrollTest" />
+      <option name="METHOD_NAME" value="iosScroll" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOSlongPress.longPress" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTestinf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ios.Gestures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ios.Gestures" />
+      <option name="MAIN_CLASS_NAME" value="Ios.Gestures.IOSlongPress" />
+      <option name="METHOD_NAME" value="longPress" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IosBasicTest.simpleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTestinf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IOS" />
+      <option name="MAIN_CLASS_NAME" value="Ios.IosBasicTest" />
+      <option name="METHOD_NAME" value="simpleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.IOSBrowserSafari.safariTest" />
+        <item itemvalue="TestNG.IOSlongPress.longPress" />
+        <item itemvalue="TestNG.IOSScrollTest.iosScroll" />
+        <item itemvalue="TestNG.IosBasicTest.simpleTest" />
+        <item itemvalue="TestNG.BrowserTest.browserTesting" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,5 +306,16 @@
       <updated>1672599011488</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

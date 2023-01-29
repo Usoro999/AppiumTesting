@@ -1,2 +1,5 @@
-package Configurations;public enum Drivers {
+package Configurations;
+
+public enum Drivers {
+    HYBRID, NATIVE, CHROME, IOSDRIVER
 }
