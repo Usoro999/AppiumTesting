@@ -1,48 +1,45 @@
 package Android.AndroidActions;
 
+import Utils.AppiumUtils;
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
-import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.DeviceRotation;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
-import org.openqa.selenium.support.PageFactory;
 
-public class AndroidActions {
-    AndroidDriver driver;
+public class AndroidActions extends AppiumUtils {
+    protected AndroidDriver driver;
 
     public AndroidActions(AndroidDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+
     }
 
     public void scrollToText(String text){
-
         driver.findElement(AppiumBy
-                .androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text('" + text + "'));"));
+                .androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\""+text+"\"));"));
     }
 
-    public void scrollToPosition(String left, String top, String width, String height, String direction, double percent){
+    public void scrollToPosition(){
          boolean canScrollMore = (Boolean) ((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
-                "left", left, "top", top, "width", width, "height", height,
-                "direction", direction,
-                "percent", percent
+                "left", 100, "top", 200, "width", 200, "height", 200,
+                "direction", "down",
+                "percent", 3.0
         ));
+
     }
 
     public void swipeAction(WebElement element, String direction, double percent){
         ((JavascriptExecutor) driver).executeScript("mobile: swipeGesture", ImmutableMap.of(
                 "elementId", element,  // ((RemoteWebElement) element ).getId()
-                "direction", "direction",
+                "direction", direction,
                 "percent", percent  // should be from 0.0 to 1.0 (ex. 0.75)
         ));
-
-
     }
     public void dragAndDrop(WebElement element){
         ((JavascriptExecutor) driver).executeScript("mobile: dragGesture", ImmutableMap.of(
@@ -56,7 +53,7 @@ public class AndroidActions {
     public void longPressAction(WebElement element) {
 
         ((JavascriptExecutor) driver).executeScript("mobile: longClickGesture",
-                ImmutableMap.of("elementId", ((RemoteWebElement) element).getId(), "duration", 2000));
+                ImmutableMap.of("elementId", element, "duration", 2000)); //((RemoteWebElement) element).getId()
     }
     public void hideKeyboard() {
         driver.hideKeyboard();

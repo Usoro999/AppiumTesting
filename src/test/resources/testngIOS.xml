@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AppiumTesting">
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="smoke"/>-->
+<!--        </run>-->
+<!--    </groups>-->
+
+    <test name="IOStesting">
+        <classes>
+            <class name="IOS.Tests.IosBasicTest"/>
+<!--            <class name="IOS.Gestures.IOSScrollTest"/>-->
+<!--            <class name="IOS.Tests.IOSlongPressTest"/>-->
+<!--            <class name="IOS.Tests.IOSSwipeTest"/>-->
+        </classes>
+    </test>
+</suite>

@@ -1,11 +1,11 @@
 package Android.AndroidMobileBrowser;
 
-import Configurations.BaseTest;
+import Android.Configurations.AndroidBaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
-public class BrowserTest extends BaseTest {
+public class BrowserTest extends AndroidBaseTest {
 
     @Test
     public void browserTesting() throws InterruptedException {

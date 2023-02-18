@@ -5,12 +5,13 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
 public class CartPage extends AndroidActions {
-    AndroidDriver driver;
+
 
     public CartPage(AndroidDriver driver) {
         super(driver);
@@ -52,8 +53,9 @@ public class CartPage extends AndroidActions {
         return sum;
     }
 
+
     public Double getTotalScreenAmount() {
-        return Double.parseDouble(totalAmount.getText().replace("$ ",""));
+        return getTotalAmount(totalAmount);
     }
 
     public void longPressOnTerms() {
@@ -63,9 +65,11 @@ public class CartPage extends AndroidActions {
     public String getTermsText() {
         return termsText.getText();
     }
+    public void closeTermMessage(){
+        button1.click();
+    }
 
     public void finishOrder() {
-        button1.click();
         checkbox.click();
         proceedBtn.click();
     }

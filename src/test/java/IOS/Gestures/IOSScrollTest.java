@@ -1,16 +1,15 @@
-package Ios.Gestures;
+package IOS.Gestures;
 
-import Configurations.IosBaseTest;
+import IOS.Configurations.IOSBaseTest;
 import io.appium.java_client.AppiumBy;
-import org.checkerframework.checker.units.qual.A;
+
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class IOSScrollTest extends IosBaseTest {
+public class IOSScrollTest extends IOSBaseTest {
 
     @Test
     public void iosScroll() throws InterruptedException {

@@ -1,14 +1,20 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="AppiumTesting">
-    <test name="IOStesting">
-<!--        <groups>-->
-<!--            <define name="smoke"/>-->
-<!--        </groups>-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AppiumTestin">
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="smoke"/>-->
+<!--        </run>-->
+<!--    </groups>-->
+<!--    <listeners>-->
+<!--        <listener class-name="IOS.Configurations.ListenersIOS"/>-->
+<!--    </listeners>-->
+    <test name="Androidtesting">
         <classes>
-            <class name="Ios.IosBasicTest"/>
-            <class name="Ios.Gestures.IOSScrollTest"/>
-            <class name="Ios.Gestures.IOSSwipe"/>
-            <class name="Ios.Gestures.IOSlongPress"/>
+<!--            <class name="Android.GeneralStore.FillFormTest"/>-->
+<!--            <class name="Android.GeneralStore.Order1ProductTest"/>-->
+<!--            <class name="Android.GeneralStore.CheckErrorToastTest"/>-->
+<!--            <class name="Android.GeneralStore.CheckTheSumOnCartTest"/>-->
         </classes>
     </test>
 </suite>

@@ -5,7 +5,9 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -30,7 +32,7 @@ public class ProductCatalog extends AndroidActions {
     @AndroidFindBy(id = "com.androidsample.generalstore:id/toolbar_title")
     WebElement cartTitle;
     @AndroidFindBy(id = "com.androidsample.generalstore:id/productPrice")
-    private List<WebElement> itemPrices;
+    List<WebElement> itemPrices;
     @AndroidFindBy(id = "com.androidsample.generalstore:id/totalAmountLbl")
     WebElement totalAmount;
     @AndroidFindBy(id = "com.androidsample.generalstore:id/termsButton")
@@ -66,8 +68,9 @@ public class ProductCatalog extends AndroidActions {
     public void navigateToCart() {
         cartBtn.click();
         //Switching the pages are contained several seconds = necessarily to use Wait
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.attributeContains(cartTitle, "text", "Cart"));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+      //  wait.until(ExpectedConditions.attributeContains(cartTitle, "text", "Cart"));
+        wait.ignoring(StaleElementReferenceException.class).until(ExpectedConditions.refreshed(ExpectedConditions.attributeContains(cartTitle, "text", "Cart")));
     }
 
     public void addToCartOneItem(String item) {
@@ -75,7 +78,7 @@ public class ProductCatalog extends AndroidActions {
         // Select the right element from list and click AddToCart
 
         for (int i = 0; i < productsNameList.size(); i++){
-            if(productsNameList.get(i).getText().equals("Jordan 6 Rings")){
+            if(productsNameList.get(i).getText().equals(item)){
                 addToCartBtn.get(i).click();
             }
 

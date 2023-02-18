@@ -1,15 +1,12 @@
-package Ios;
+package IOS.Tests;
 
-import Configurations.IosBaseTest;
-import io.appium.java_client.AppiumBy;
-import org.openqa.selenium.WebElement;
+import IOS.Configurations.IOSBaseTest;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-public class IOSBrowserSafari extends IosBaseTest {
+public class IOSBrowserSafari extends IOSBaseTest {
 
     @Test
     public void safariTest(){
@@ -20,8 +17,7 @@ public class IOSBrowserSafari extends IosBaseTest {
 
 //        Open another app
         Map<String, String> params = new HashMap<>();
-        params.put("bundleId", "com.apple.mobilesafari");  // ((RemoteWebElement)incrementButton).getId()
-
+        params.put("bundleId", "com.apple.mobilesafari");
         driver.executeScript("mobile:launchApp", params);
         driver.get("https://support.apple.com/ru-ru/guide/deployment/depece748c41/web");
 
