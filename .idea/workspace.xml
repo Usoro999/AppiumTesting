@@ -4,48 +4,105 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efccdcee-85e6-4484-b79a-31c4fe9aec43" name="Changes" comment="New">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Android/Configurations/AndroidBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Android/DataProviderClass/DataProviderClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOS/Configurations/Drivers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOS/Configurations/ListenersIOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOS/Gestures/IosActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOS/PageObjects/AlertViewsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOS/PageObjects/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOS/PageObjects/PhotosAppPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOS/PageObjects/SteppersPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOS/Tests/IOSSwipeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOS/Tests/IOSlongPressTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOS/Tests/IosBasicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/AppiumUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/TakeScreenShots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/dataProvider.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testngIOS.xml" afterDir="false" />
+    <list default="true" id="efccdcee-85e6-4484-b79a-31c4fe9aec43" name="Changes" comment="add changes">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Android/AndroidActions/AndroidActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/AndroidActions/AndroidActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Android/AndroidMobileBrowser/BrowserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/AndroidMobileBrowser/BrowserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/CheckErrorToast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/CheckErrorToastTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/CheckTheSumOnCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/CheckTheSumOnCartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/FillForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/FillFormTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/OrderOneItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/Order1ProductTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/SwitchTheApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/SwitchTheAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Android/PageObjectsAndroid/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/PageObjectsAndroid/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Android/PageObjectsAndroid/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/PageObjectsAndroid/FormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Android/PageObjectsAndroid/GeneralCommands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Android/PageObjectsAndroid/ProductCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/PageObjectsAndroid/ProductCatalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Configurations/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Configurations/CreateDrivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/Configurations/CreateDrivers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Configurations/CreateIOSDrivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOS/Configurations/CreateIOSDrivers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Configurations/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/Configurations/Drivers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Configurations/IosBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOS/Configurations/IOSBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ios/Gestures/IOSScrollTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOS/Gestures/IOSScrollTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ios/Gestures/IOSSwipe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ios/Gestures/IOSlongPress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ios/IOSBrowserSafari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOS/Tests/IOSBrowserSafari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ios/IosBasicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Android/Configurations/AndroidBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/Configurations/AndroidBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Android/Configurations/CreateDrivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/Configurations/CreateDrivers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/SwitchTheAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Android/GeneralStore/SwitchTheAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOS/Configurations/ListenersIOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOS/Configurations/ListenersIOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/AppiumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/AppiumUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ActivityIndicatorViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ActivityIndicatorViewController.storyboardc/UITableViewController-YvC-vN-mSd.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ActivityIndicatorViewController.storyboardc/YvC-vN-mSd-view-Udh-X7-hOc.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/AlertControllerViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/AlertControllerViewController.storyboardc/UITableViewController-Va4-Ge-jQn.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/AlertControllerViewController.storyboardc/Va4-Ge-jQn-view-iro-ev-0xV.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ButtonViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ButtonViewController.storyboardc/UITableViewController-gl0-hM-EWg.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ButtonViewController.storyboardc/gl0-hM-EWg-view-gDs-OX-aHt.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Credits.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/7Xn-ho-KP8-view-LFl-gd-u3P.nib/objects-14.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/7Xn-ho-KP8-view-LFl-gd-u3P.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/UIViewController-7Xn-ho-KP8.nib/objects-14.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/UIViewController-7Xn-ho-KP8.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ImageViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ImageViewController.storyboardc/UIViewController-XCI-A9-c2M.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ImageViewController.storyboardc/XCI-A9-c2M-view-InE-1J-uPb.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/LaunchScreen.storyboardc/Axx-hg-9Xm-view-Bd8-dr-7ve.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/LaunchScreen.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/LaunchScreen.storyboardc/UINavigationController-4yX-ry-qSy.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/GgB-cT-22O-view-aE8-Eb-ul8.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/MasterViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/initialDetail.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/ioe-is-9Fo-view-Ie1-Wu-iah.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/navInitialDetail.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/splitView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/PageControlViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/PageControlViewController.storyboardc/UIViewController-ZSF-lM-gQa.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/PageControlViewController.storyboardc/ZSF-lM-gQa-view-1Df-6J-Q8v.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/PickerViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/PickerViewController.storyboardc/UIViewController-hIc-I2-PiV.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/PickerViewController.storyboardc/hIc-I2-PiV-view-EB5-Ny-mbq.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ProgressViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ProgressViewController.storyboardc/UITableViewController-aY0-FD-8DD.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ProgressViewController.storyboardc/aY0-FD-8DD-view-vxe-YC-yBi.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/CustomSearchBarViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/DefaultSearchBarViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/Mhd-Bs-sIn-view-YVy-et-UAQ.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/Search.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/SearchBarEmbedInNavBarViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/SearchResultsViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/Thx-B6-QkK-view-QvM-3S-GbD.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/aRM-gX-SK9-view-1PE-AW-QJq.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/aTT-8g-UdL-view-VZF-3b-rcm.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/v21-vF-FLh-view-d2N-kr-XWw.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SegmentedControlViewController.storyboardc/Eil-ie-nN6-view-fLQ-5f-tUh.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SegmentedControlViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SegmentedControlViewController.storyboardc/UITableViewController-Eil-ie-nN6.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SliderViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SliderViewController.storyboardc/UITableViewController-laz-6N-ZhE.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SliderViewController.storyboardc/laz-6N-ZhE-view-8xG-xW-Mvc.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/StackViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/StackViewController.storyboardc/K8w-Uq-R9J-view-Hwb-09-b4P.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/StackViewController.storyboardc/UIViewController-K8w-Uq-R9J.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/StepperViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/StepperViewController.storyboardc/Ob2-pp-aCj-view-aQ3-9F-Tmi.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/StepperViewController.storyboardc/UITableViewController-Ob2-pp-aCj.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SwitchViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SwitchViewController.storyboardc/UITableViewController-zcI-oN-J3j.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/SwitchViewController.storyboardc/zcI-oN-J3j-view-4ER-nG-feZ.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/TextFieldViewController.storyboardc/DSJ-7r-oCY-view-dyj-uS-k8j.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/TextFieldViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/TextFieldViewController.storyboardc/UITableViewController-DSJ-7r-oCY.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/TextViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/TextViewController.storyboardc/UIViewController-pUP-b0-VMf.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/TextViewController.storyboardc/pUP-b0-VMf-view-eAJ-am-dgQ.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/CustomToolbarViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/DefaultToolbarViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/FY6-YQ-KUW-view-cQQ-vC-cql.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/P5B-ej-GR8-view-lTJ-Dz-yrG.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/TintedToolbarViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/Toolbars.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/c6p-Xx-oIp-view-LTn-gr-hZ8.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/cTo-Y6-RL4-view-YY9-uv-rey.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/WebViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/WebViewController.storyboardc/UIViewController-i9U-A8-mkf.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/WebViewController.storyboardc/i9U-A8-mkf-view-cde-Ag-lVB.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Base.lproj/content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/PkgInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/UIKitCatalog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/UIKitCatalog.app/_CodeSignature/CodeResources" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +137,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2JjkihSV9PKGEdOwczuiOfD7NSL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -93,11 +154,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/yurii/MyFiles/JavaProjects/AppiumTesting/src/test/resources",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/yurii/MyFiles/IdeaProjects/AppiumTesting",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.37471265",
-    "settings.editor.selected.configurable": "testing.instrumented.configuration"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -190,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675004178093</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add changes">
+      <created>1676736347557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676736347557</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +268,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -206,7 +288,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New" />
-    <option name="LAST_COMMIT_MESSAGE" value="New" />
+    <MESSAGE value="add changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

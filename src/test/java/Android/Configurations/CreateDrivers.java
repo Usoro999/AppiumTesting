@@ -30,11 +30,13 @@ public class CreateDrivers extends AndroidBaseTest {
 
 
     public static void createHybridDriver() throws IOException {
-        // Set and start Appium server
 
+        // Announce property variable
         Properties properties = new Properties();
         FileInputStream fileInputStream = new FileInputStream("src/test/resources/data.properties");
         properties.load(fileInputStream);
+
+        // Set and start Appium server
         serviceBuilder = startAppiumServer(properties.getProperty("ipAddress"), Integer.parseInt(properties.getProperty("port")));
 
             // Option to set capabilities in Appium 2.0
@@ -46,6 +48,7 @@ public class CreateDrivers extends AndroidBaseTest {
             options.setCapability("appWaitPackage","com.androidsample.generalstore");
             driver = new AndroidDriver(serviceBuilder.getUrl(), options);
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
         }
 
 

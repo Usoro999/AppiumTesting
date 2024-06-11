@@ -25,6 +25,12 @@ public class AndroidActions extends AppiumUtils {
                 .androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\""+text+"\"));"));
     }
 
+    public void scrollToPos(String text){
+        driver.findElement(AppiumBy
+                .androidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollToEnd(1)")); // from 0 to 1 (0-100%)
+        
+    }
+
     public void scrollToPosition(){
          boolean canScrollMore = (Boolean) ((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
                 "left", 100, "top", 200, "width", 200, "height", 200,
@@ -76,6 +82,7 @@ public class AndroidActions extends AppiumUtils {
         //Main mobile Keys
         driver.pressKey(new KeyEvent(AndroidKey.BACK));
         driver.pressKey(new KeyEvent(AndroidKey.HOME));
+
 
         // if we want to start the program from specific place
         // command in terminal:

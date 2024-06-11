@@ -13,12 +13,6 @@ import java.io.ByteArrayInputStream;
 
 public class ListenersIOS extends IOSBaseTest implements ITestListener {
 
-    @Override
-    public void onTestSuccess(ITestResult result) {
-        Allure.addAttachment(result.getMethod().getMethodName()+"Screen",
-                new ByteArrayInputStream(driver.getScreenshotAs(OutputType.BYTES)));
-
-    }
 
     @Override
     public void onTestFailure(ITestResult result) {

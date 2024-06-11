@@ -11,7 +11,7 @@
 <!--    </listeners>-->
     <test name="Androidtesting">
         <classes>
-<!--            <class name="Android.GeneralStore.FillFormTest"/>-->
+            <class name="Android.GeneralStore.FillFormTest"/>
 <!--            <class name="Android.GeneralStore.Order1ProductTest"/>-->
 <!--            <class name="Android.GeneralStore.CheckErrorToastTest"/>-->
 <!--            <class name="Android.GeneralStore.CheckTheSumOnCartTest"/>-->

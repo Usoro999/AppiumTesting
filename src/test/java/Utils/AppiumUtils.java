@@ -34,6 +34,7 @@ public abstract class AppiumUtils {
     public void waitForElement(WebElement element, AppiumDriver driver){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(element));
+        
     }
 
     public Double getTotalAmount(WebElement element) {

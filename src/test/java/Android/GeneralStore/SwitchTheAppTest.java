@@ -35,6 +35,7 @@ public class SwitchTheAppTest extends AndroidBaseTest {
     // The app is changed to the internet app
     // if you don't know the context of the app -> make Set of all contexts
         Set<String> contexts = driver.getContextHandles();
+
             for (String context:contexts) {
                 System.out.println(context);
                 // ["NATIVE_APP","WEBVIEW_com.androidsample.generalstore"]
